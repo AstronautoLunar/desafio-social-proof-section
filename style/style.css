@@ -1,0 +1,50 @@
+body {
+    font-family: Spartan;
+    background-image: url(/images/bg-pattern-bottom-desktop.svg), url(/images/bg-pattern-top-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: 20vw 5vw, -6vw 0vw;
+    padding-top: 70px;
+}
+
+main {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+article {
+    width: 30rem;
+}
+
+article > h1 {
+    color: hsl(300, 43%, 22%);
+    font-size: 40px;
+    width: 25rem;
+}
+
+article > p {
+    color: hsl(303, 10%, 53%);
+    width: 30rem;
+}
+
+div#line-up, section:nth-of-type(2) {
+    display: flex;
+}
+
+div#line-up {
+    align-items: center;
+    justify-content: space-between;
+}
+
+section:nth-of-type(2) {
+    flex-direction: column;
+    width: 30rem;
+}
+
+div.star {
+    width: 80%;
+    height: 50px;
+    background-color: hsl(300, 24%, 96%);
+}
+
+
