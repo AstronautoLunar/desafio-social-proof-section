@@ -16,8 +16,11 @@ article {
     width: 30rem;
 }
 
-article > h1 {
+article > h1, div.panel-star > span {
     color: hsl(300, 43%, 22%);
+}
+
+article > h1 {
     font-size: 40px;
     width: 25rem;
 }
@@ -27,24 +30,46 @@ article > p {
     width: 30rem;
 }
 
-div#line-up, section:nth-of-type(2) {
+div#line-up, section:nth-of-type(2), div.panel-star {
     display: flex;
+    align-items: center;
 }
 
 div#line-up {
-    align-items: center;
     justify-content: space-between;
 }
 
 section:nth-of-type(2) {
     flex-direction: column;
     width: 30rem;
+    height: 200px;
+}
+
+div.panel-star {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 25rem;
+    height: 50px;
+    background-color: hsl(300, 24%, 96%);
+    justify-content: flex-start;
+
+}
+
+div.panel-star:nth-of-type(1) {
+    margin-right: auto;
+}
+
+div.panel-star:nth-of-type(3) {
+    margin-left: auto;
 }
 
 div.star {
-    width: 80%;
-    height: 50px;
-    background-color: hsl(300, 24%, 96%);
+    margin: 0 30px;
+}
+
+div.panel-star > span {
+    font-weight: 700;
+    font-size: 13px;
 }
 
 
