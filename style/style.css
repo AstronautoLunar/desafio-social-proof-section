@@ -134,3 +134,65 @@ div.user-comments  > p {
     line-height: 17.5px;
     color: hsl(300, 24%, 96%);
 }
+
+@media screen and (max-width: 1278px) {
+    section#comments {
+        flex-direction: column;
+        height: auto;
+    }
+
+    section#comments > div {
+        margin: 10px 0px;
+    }
+}
+
+@media screen and (max-width: 1132px) {
+    div#line-up {
+        height: auto;
+        flex-direction: column;
+    }
+
+    article > h1 {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    article > h1, article > p {
+        text-align: center;
+    }
+
+    div#line-up > section:nth-of-type(2) {
+        width: auto;
+    }
+
+    div.panel-star {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 486px) {
+    body {
+        background-position: 20vw 5vw, -60vw 0vw;
+    }
+
+    article {
+        width: auto;
+    }
+
+    article > h1, article > p {
+        width: auto;
+    }
+
+    div.panel-star {
+        width: 80vw;
+    }
+
+    section#comments > div {
+        width: auto;
+        height: auto;
+    }
+}
