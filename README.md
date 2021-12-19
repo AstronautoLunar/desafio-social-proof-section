@@ -1,5 +1,12 @@
 <h1 align="center">Social proof section</h1>
 
+<div align="center">
+  <img
+    src="https://github.com/Pyedrown/desafio-social-proof-section/blob/master/presentation.PNG"
+    alt="presentation image"
+  />
+</div>
+
 <p align="center">Concluido o desafio Social proof section do frontEnd Mentor</p>
 
 * [Sobre](#Sobre)
@@ -7,7 +14,7 @@
 * [Tecnologias](#tecnologias)
 
 <h4 align="center">
-  Concluido
+  ✅ Concluido ✅
 </h4>
 
 ## Sobre
